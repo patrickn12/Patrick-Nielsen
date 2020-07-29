@@ -3,9 +3,13 @@
     <title>Titel</title>
   </header>
   <body>
+    <p id="demo">
     Hej verden
     <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Tænd</button>
     <img id="myImage" src="pic_bulboff.gif" style="width:200px">
     <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Sluk</button>
+    </p>
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Skjul</button>
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">Vis!</button>
   </body>
 </html>
