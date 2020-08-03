@@ -1,0 +1,3 @@
+# palle
+
+Javascript projekt
